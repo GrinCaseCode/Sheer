@@ -1,0 +1,6 @@
+<svg width="333" height="504" preserveAspectRatio="none" viewBox="0 0 333 504" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="54" height="38" transform="matrix(1 0 0 -1 237 65)" fill="#F5F7FD"/>
+<rect y="64" width="333" height="440" rx="30" fill="#F5F7FD"/>
+<rect width="245" height="141" rx="30" transform="matrix(1 0 0 -1 0 141)" fill="#F5F7FD"/>
+<path d="M245 32.5C245 49.897 259.103 64 276.5 64H300.5C317.897 64 332 49.897 332 32.5V32.5C332 15.103 317.897 1 300.5 1H276.5C259.103 1 245 15.103 245 32.5V32.5Z" fill="white"/>
+</svg>
