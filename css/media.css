@@ -1051,6 +1051,9 @@
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
+	.title-section span {
+		padding: 0 9px;
+	}
 	.header__content {
 		display: none;
 	}
@@ -1914,6 +1917,10 @@
 	.news .title-section {
 		margin-bottom: 26px;
 		display: flex;
+		align-items: center;
+	}
+	.news .title-section span {
+		margin-left: 7px;
 	}
 	.news .title-section a.title-section__min {
 		margin-left: auto;
@@ -2201,6 +2208,12 @@
 	}
 	.item-package__descr {
 		padding: 11px 10px;
+	}
+	.link-circle__hint {
+		left: -9px;
+	}
+	.footer__title a {
+		font-size: 24px;
 	}
 }
 
