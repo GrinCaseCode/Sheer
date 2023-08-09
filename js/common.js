@@ -34,14 +34,40 @@ if ( $(this).scrollTop() > 0 && $menu.hasClass("default") ){
 			});
 
 	//кнопка sandwich
-	$(".sandwich").click(function() {
-		$(this).toggleClass("active");
-		if ($(".menu-mobile").is(":hidden")) {
-			$(".menu-mobile").slideDown(200);
+	$(".sandwich_catalog").click(function() {
+		if ($(".menu-dropdown").is(":hidden")) {
+			$(".menu-dropdown").slideDown(200);
+			$(this).addClass("active");
 		} else {
-			$(".menu-mobile").slideUp(200);
+			$(".menu-dropdown").slideUp(200);
+			$(this).removeClass("active");
 		}
 	});
+
+	$(".sandwich_menu").click(function() {
+		if ($(".header__content").is(":hidden")) {
+			$(".header__content").slideDown(200);
+			$(this).addClass("active");
+			$(".header").addClass("active");
+		} else {
+			$(".header__content").slideUp(200);
+			$(this).removeClass("active");
+			$(".header").removeClass("active");
+		}
+	});
+
+	{
+		if ($(window).width() > 992) { 
+			$(document).mouseup(function (e) {
+				var container = $(".menu-dropdown");
+				if (container.has(e.target).length === 0){
+					container.slideUp(200);
+					$(".sandwich_catalog").removeClass("active");
+				}
+			});
+
+		}
+	}
 
 	//слайдер
 
@@ -119,8 +145,8 @@ if ( $(this).scrollTop() > 0 && $menu.hasClass("default") ){
 			settings: 'unslick'
 		}
 		]
-	});
-
+	});	
+	/*
 	$(window).resize(function () {
 		if ($(window).width() < 992) {
 			$('.row_about').slick('refresh');
@@ -133,7 +159,7 @@ if ( $(this).scrollTop() > 0 && $menu.hasClass("default") ){
 			$('.slider-services').slick('refresh');
 		}
 	})
-
+*/
 	$(".input-phone").mask("+7 (999) 999-99-99");
 
 	$('.tabs li a').click(function(event) {
