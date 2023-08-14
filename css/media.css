@@ -641,6 +641,9 @@
 		font-size: 10px;
 		margin-left: 11px;
 	}
+	.billbord__buttons .btn-main_transparent {
+		height: 63px;
+	}
 }
 @media only screen and (max-width : 1350px) {
 	.footer::before {
