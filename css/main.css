@@ -348,7 +348,7 @@ form {
 }
 .item-billbord:hover {
 	transform: translateY(-10px);
-    box-shadow: 0px 5px 0px #4f73a3;
+	box-shadow: 0px 5px 0px #4f73a3;
 }
 .item-billbord__icon img {
 	max-width: 40px;
@@ -714,10 +714,10 @@ form {
 }
 .item-package:hover {
 	transform: translateY(-10px);
-    box-shadow: 0px 5px 0px #4f73a3;
+	box-shadow: 0px 5px 0px #4f73a3;
 }
 .item-package_hit:hover {
-    box-shadow: 0px 0px 0px #4f73a3;
+	box-shadow: 0px 0px 0px #4f73a3;
 }
 .item-package__head {
 	border-radius: 30px 30px 0 0;
@@ -1101,7 +1101,7 @@ form {
 }
 .item-service:hover {
 	transform: translateY(-10px);
-    box-shadow: 0px 5px 0px #4f73a3;
+	box-shadow: 0px 5px 0px #4f73a3;
 }
 .item-service .title-common {
 	margin-bottom: 34px;
@@ -1308,7 +1308,7 @@ form {
 	max-height: 100%;
 }
 .col-client {
-    width: 14.28%;
+	width: 14.28%;
 }
 .clients-info {
 	font-size: 30px;
@@ -1954,5 +1954,8 @@ form {
 	margin-bottom: 10px;
 }
 .consultation_main .consultation-block .block-form {
-    margin-top: -60px;
-    }
+	margin-top: -60px;
+}
+.consultation_main .consultation-info {
+	margin-top: -25px;
+}

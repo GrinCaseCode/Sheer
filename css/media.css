@@ -644,6 +644,9 @@
 	.billbord__buttons .btn-main_transparent {
 		height: 63px;
 	}
+	.consultation_main .consultation-info {
+    margin-top: 65px;
+}
 }
 @media only screen and (max-width : 1350px) {
 	.footer::before {
