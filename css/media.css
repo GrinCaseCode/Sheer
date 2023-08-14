@@ -283,8 +283,14 @@
 		padding: 50px 0;
 	}
 	.consultation-block {
-		padding: 50px 45px;
+		padding: 58px 45px;
 	}
+	.consultation-block .block-form {
+    margin-top: -25px;
+}
+.consultation_main .consultation-block .block-form {
+    margin-top: -8px;
+}
 	.title-common {
 		font-size: 20px;
 		letter-spacing: 1px;
@@ -1047,6 +1053,12 @@
 	.footer {
 		padding-top: 40px;
 	}
+	.billbord__buttons .btn-main_transparent {
+	height: 58px;
+}
+.consultation-block .block-form {
+    margin-top: 0;
+}
 }
 
 /* Medium Devices, Desktops */
@@ -2217,6 +2229,12 @@
 	.footer__title a {
 		font-size: 24px;
 	}
+	.billbord__buttons .btn-main_transparent {
+    height: 55px;
+}
+.consultation_main .consultation-block .block-form {
+    margin-top: 0;
+}
 }
 
 /* Small Devices, Tablets */

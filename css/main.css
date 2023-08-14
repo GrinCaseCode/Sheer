@@ -285,7 +285,6 @@ form {
 .billbord__buttons {
 	padding-top: 80px;
 	display: flex;
-	align-items: center;
 }
 .billbord__buttons .btn-main {
 	margin-right: 26px;
@@ -293,6 +292,9 @@ form {
 .billbord__buttons .btn-main i {
 	margin-left: 10px;
 	transform: rotate(-45deg);
+}
+.billbord__buttons .btn-main_transparent {
+	height: 72px;
 }
 .btn-main {
 	height: 66px;
@@ -342,6 +344,11 @@ form {
 	border-radius: 40px;
 	border: 1px solid rgba(13, 55, 110, 0.10);
 	position: relative;
+	transition: all 0.5s;
+}
+.item-billbord:hover {
+	transform: translateY(-10px);
+    box-shadow: 0px 5px 0px #4f73a3;
 }
 .item-billbord__icon img {
 	max-width: 40px;
@@ -707,6 +714,10 @@ form {
 }
 .item-package:hover {
 	transform: translateY(-10px);
+    box-shadow: 0px 5px 0px #4f73a3;
+}
+.item-package_hit:hover {
+    box-shadow: 0px 0px 0px #4f73a3;
 }
 .item-package__head {
 	border-radius: 30px 30px 0 0;
@@ -842,7 +853,7 @@ form {
 	padding: 70px 0;
 }
 .consultation-block {
-	padding: 63px 85px;
+	padding: 80px 85px;
 	color: #fff;
 	background-image: url(../img/bg_consultation.svg);
 	background-repeat: no-repeat;
@@ -905,6 +916,7 @@ form {
 	letter-spacing: 0.8px;
 }
 .consultation-block .block-form {
+	margin-top: -30px;
 	margin-left: 50px;
 }
 .item-form {
@@ -1084,7 +1096,12 @@ form {
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: 100% 100%;
-	z-index: 1;
+	transition: all 0.6s;
+	z-index: 0;
+}
+.item-service:hover {
+	transform: translateY(-10px);
+    box-shadow: 0px 5px 0px #4f73a3;
 }
 .item-service .title-common {
 	margin-bottom: 34px;
@@ -1173,8 +1190,8 @@ form {
 	display: flex !important;
 }
 .slider-services .slick-slide {
-	padding: 0 15px;
-	padding-top: 30px;
+	padding: 10px 15px;
+	padding-top: 40px;
 	height: inherit !important;
 }
 .slider-services {
@@ -1224,7 +1241,7 @@ form {
 	opacity: 0.6;
 }
 .services .descr-big {
-	padding-bottom: 30px;
+	padding-bottom: 20px;
 	max-width: 892px;
 }
 
@@ -1378,6 +1395,11 @@ form {
 }
 .item-team {
 	position: relative;
+	border-radius: 30px;
+	transition: all 0.5s;
+}
+.item-team:hover {
+	transform: translateY(-10px);
 }
 .item-team__image {
 	height: 446px;
@@ -1931,3 +1953,6 @@ form {
 .menu-dropdown li {
 	margin-bottom: 10px;
 }
+.consultation_main .consultation-block .block-form {
+    margin-top: -60px;
+    }
