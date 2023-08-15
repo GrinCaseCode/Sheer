@@ -2804,10 +2804,11 @@
 	}
 	.consultation_service .consultation-block {
 		padding: 41px 30px;
+		min-height: 680px;
 		padding-bottom: 80px;
 	}
 	.consultation_service .item-form {
-		margin-bottom: 9px;
+		margin-bottom: 10px;
 	}
 	.advantages {
 		padding-top: 22px;
