@@ -378,6 +378,7 @@ form {
 .billbord__right {
 	margin-left: -160px;
 	position: relative;
+	pointer-events: none;
 }
 .billbord__lines {
 	left: 56px;
@@ -388,7 +389,6 @@ form {
 .image-billbord {
 	position: relative;
 	z-index: 1;
-	pointer-events: none;
 }
 
 .about {
