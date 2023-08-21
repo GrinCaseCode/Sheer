@@ -19,7 +19,9 @@ if ( $(this).scrollTop() > 0 && $menu.hasClass("default") ){
 }
 
 	//плавный скролл
-	$(".navigat li a").mPageScroll2id();
+	$(".nav-article li a").mPageScroll2id({
+		offset: 100
+	});
 
 	$(".sertificat-badge_video").modalVideo();
 	$(".item-video-review").modalVideo();
@@ -87,6 +89,17 @@ if ( $(this).scrollTop() > 0 && $menu.hasClass("default") ){
 					container.slideUp(200);
 					$(".sandwich_catalog").removeClass("active");
 				}
+			});
+
+		}
+	}
+
+	{
+		if ($(window).width() < 992) { 
+		
+			$(".nav-article .title-middle").click(function() {
+				$(".nav-article ul").slideToggle(200);
+				$(this).toggleClass("active");
 			});
 
 		}
@@ -212,6 +225,28 @@ if ( $(this).scrollTop() > 0 && $menu.hasClass("default") ){
 			breakpoint: 768,
 			settings: {
 				slidesToShow: 1,
+			}
+		}
+		]
+	});
+
+	$('.slider-news-three').slick({
+		arrows: true,
+		dots: false,
+		infinite: false,
+		touchThreshold: 1000,
+		slidesToShow: 3,
+		slidesToScroll: 1,
+		prevArrow: '<div class="slick-prev slick-arrow"><i class="far fa-arrow-left"></i><div/>',
+		nextArrow: '<div class="slick-next slick-arrow"><i class="far fa-arrow-right"></i><div/>',
+		responsive: [
+		{
+			breakpoint: 992,
+			settings: {
+				slidesToShow: 1,
+				infinite: true,
+				centerMode: true,
+				variableWidth: true,
 			}
 		}
 		]
