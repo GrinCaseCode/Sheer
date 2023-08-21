@@ -2464,7 +2464,7 @@ form {
 	position: absolute;
 	display: block;
 	content: " ";
-	top: 0;
+	top: 0; 
 	left: 58px;
 	right: 0;
 	height: 122px;
@@ -2478,7 +2478,7 @@ form {
 	top: 0;
 	width: 50px;
 	height: 50px;
-	display: flex;
+	display: flex; 
 	z-index: 1;
 	align-items: center;
 	justify-content: center;
