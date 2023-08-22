@@ -3490,6 +3490,9 @@
 	.nav-article .title-middle.active i {
 		transform: rotate(180deg);
 	}
+	.article .breadcrumbs {
+		justify-content: flex-start;
+	}
 }
 
 /* Small Devices, Tablets */
