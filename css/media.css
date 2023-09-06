@@ -3804,6 +3804,15 @@
 	.feature-portfolio strong {
 		width: 42%;
 	}
+	.selected-tabs i {
+		top: 0;
+		width: 31px;
+		right: 9px;
+		height: 35px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
 }
 
 /* Small Devices, Tablets */
