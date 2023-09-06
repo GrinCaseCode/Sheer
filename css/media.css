@@ -3737,7 +3737,7 @@
 	}
 	.link-portfolio {
 		right: -6px;
-		bottom: -15px;
+		bottom: -13px;
 		height: 63px;
 		padding: 2px 9px;
 		font-size: 11px;
@@ -3780,7 +3780,7 @@
 		border-radius: 15px;
 	}
 	.beforeAfter {
-		height: 255px;
+		height: 215px;
 		max-width: 350px;
 	}
 	.block-portfolio__image {
