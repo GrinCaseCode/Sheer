@@ -1,6 +1,42 @@
 $(document).ready(function() {
 
+	$('.beforeAfter').beforeAfter();
 
+	$('.tabs-selects li a').click(function(event) {
+		event.preventDefault();
+		$(this).parent().parent().find("li").removeClass('active');
+		$(this).parent().toggleClass('active');
+		var selectTab2 = $(this).attr("href");
+		$(".tab-pane-selects").not(selectTab2).slideUp(200);
+		$(selectTab2).slideToggle(200);
+		$(".dropdown-select").slideDown(0);
+	});
+
+	$(".dropdown-select a").click(function(e) {
+		e.preventDefault();
+		var tabText = $(this).parent().html();
+		var idSelect = $(this).parent().parent().parent().attr("id");
+		$(".selected-tabs div[data-tab="+idSelect+"]").html(tabText+ "<i class='far fa-times'></i>");
+		$(this).parent().parent().parent().slideUp(200);
+		$(".line-clear").fadeIn(0);
+		$(".selected-tabs i").click(function(e) {
+			e.preventDefault();
+			$(this).parent().find("*").remove(0);
+			if ($(".selected-tabs div").children().length == 0){
+				$(".line-clear").fadeOut(0);
+			} else {
+
+			}
+
+		});
+		$(".clear-selects").click(function(e) {
+			e.preventDefault();
+			$(".selected-tabs div").find("*").remove(0);
+			$(".line-clear").fadeOut(0);
+
+		});
+	});
+	
 //прилипающие меню
 var $menu = $(".header");
 $(window).scroll(function(){
@@ -20,6 +56,10 @@ if ( $(this).scrollTop() > 0 && $menu.hasClass("default") ){
 
 	//плавный скролл
 	$(".nav-article li a").mPageScroll2id({
+		offset: 100
+	});
+
+	$(".sidebar-portfolio li a").mPageScroll2id({
 		offset: 100
 	});
 
@@ -96,7 +136,7 @@ if ( $(this).scrollTop() > 0 && $menu.hasClass("default") ){
 
 	{
 		if ($(window).width() < 992) { 
-		
+
 			$(".nav-article .title-middle").click(function() {
 				$(".nav-article ul").slideToggle(200);
 				$(this).toggleClass("active");
