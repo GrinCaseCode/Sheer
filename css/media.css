@@ -4075,6 +4075,13 @@
 .review-video__content {
     margin-right: 0;
     }
+    .tabs-main a {
+    	padding: 0 10px;
+    	max-width: 156px;
+    }
+    .tabs-main li:last-child a {
+    	margin-right: 0;
+    }
 }
 
 /* Custom, iPhone Retina */
