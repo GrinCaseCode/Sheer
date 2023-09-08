@@ -54,6 +54,13 @@ if ( $(this).scrollTop() > 0 && $menu.hasClass("default") ){
 	$menu.removeClass("fixed").addClass("default");
 }
 
+
+/*input file*/
+$("input[type='file']").change(function(){
+	var filename_text = $(this).parent().siblings(".name-upload");
+	var filename = $(this).val().replace(/.*\\/, "");
+	filename_text.html(filename);
+});
 	//плавный скролл
 	$(".nav-article li a").mPageScroll2id({
 		offset: 100
@@ -66,6 +73,7 @@ if ( $(this).scrollTop() > 0 && $menu.hasClass("default") ){
 	$(".sertificat-badge_video").modalVideo();
 	$(".item-video-review").modalVideo();
 	$(".btn-main_video").modalVideo();
+	$(".review-video__image").modalVideo();
 
 	{
 		if ($(window).width() < 992) { 
@@ -91,6 +99,13 @@ if ( $(this).scrollTop() > 0 && $menu.hasClass("default") ){
 		$(this).siblings().slideToggle(200);
 		$(this).parent().siblings(".item-question").removeClass("active");
 		$(this).parent().siblings(".item-question").find(".item-question__content").slideUp(200);
+	});
+
+	$(".item-vacancy__head").click(function() {
+		$(this).parent().toggleClass("active");
+		$(this).siblings().slideToggle(200);
+		$(this).parent().siblings(".item-vacancy").removeClass("active");
+		$(this).parent().siblings(".item-vacancy").find(".item-vacancy__content").slideUp(200);
 	});
 
 	$(".item-package__title").click(function() {
@@ -314,6 +329,15 @@ if ( $(this).scrollTop() > 0 && $menu.hasClass("default") ){
 		$(this).parent().parent().parent().parent().find(".tab-pane").fadeOut(0);
 		var selectTab = $(this).attr("href");
 		$(selectTab).fadeIn(400);
+	});
+
+	$('.tabs-main li a').click(function(event) {
+		event.preventDefault();
+		$(this).parent().parent().find("li").removeClass('active');
+		$(this).parent().addClass('active');
+		$(".tab-pane-main").fadeOut(0);
+		var selectTab2 = $(this).attr("href");
+		$(selectTab2).fadeIn(400);
 	});
 
 

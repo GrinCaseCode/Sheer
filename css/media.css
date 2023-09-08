@@ -1204,6 +1204,101 @@
 	.form-consultation .title-section {
 		font-size: 34px;
 	}
+	.modal-wrap {
+    width: 935px;
+    padding: 30px 40px;
+    padding-bottom: 35px;
+}
+.modal-wrap .title-section {
+    font-size: 36px;
+    margin-bottom: 17px;
+    }
+    .modal-wrap__content {
+    padding: 30px 44px;
+}
+.file-upload {
+    margin-top: 23px;
+    margin-bottom: 19px;
+    }
+    .item-vacancy__head {
+    padding: 22px 25px;
+}
+.item-vacancy__descr {
+    font-size: 13px;
+    padding-top: 10px;
+    letter-spacing: 0.4px;
+}
+.item-vacancy__content {
+    padding: 25px;
+    padding-top: 0;
+    }
+    .item-vacancy .title-middle {
+    padding-bottom: 16px;
+}
+.item-vacancy hr {
+	margin: 15px 0;
+}
+.vacancies-content {
+	padding-bottom: 40px;
+}
+.file-upload label {
+	font-size: 13px;
+}
+.file-upload label i {
+	margin-right: 15px;
+}
+.wrap-reviews > img {
+    max-width: 875px;
+    }
+    .tabs-main a {
+    padding: 0 18px;
+    height: 43px;
+}
+.head-reviews .btn-main {
+    padding: 0 34px;
+    height: 50px;
+    border-radius: 15px;
+    }
+    .item-review {
+    padding: 20px 25px;
+}
+.item-review__head {
+    padding-bottom: 13px;
+    }
+    .item-review__descr {
+    font-size: 13px;
+    letter-spacing: 0.4px;
+}
+.link-external {
+    font-size: 13px;
+    letter-spacing: 0.5px;
+    }
+    .link-main {
+    font-size: 13px;
+}
+.row_reviews > div {
+    margin-bottom: 20px;
+}
+.review-video__image {
+    height: 215px;
+    border-radius: 20px;
+}
+.review-video__image img {
+	border-radius: 20px;
+}
+.review-video__content {
+    margin-right: 43px;
+    margin-top: -48px;
+    padding: 13px 15px;
+    padding-bottom: 17px;
+    border-radius: 20px;
+    }
+    .row_video-reviews > div {
+    margin-bottom: 20px;
+}
+.reviews-content {
+	padding-bottom: 80px;
+}
 }
 @media only screen and (max-width : 1350px) {
 	.footer::before {
@@ -1849,6 +1944,34 @@
 	.sidebar-portfolio {
 		top: 85px;
 	}
+	.modal-wrap {
+    width: 800px;
+    padding: 30px 35px;
+    padding-bottom: 33px;
+}
+.modal-wrap .title-section {
+    font-size: 31px;
+    margin-bottom: 15px;
+}
+.salary-main {
+	margin-top: 5px;
+}
+.item-vacancy__bottom {
+    padding-top: 29px;
+    }
+    .wrap-reviews > img {
+    max-width: 600px;
+}
+.item-review__bottom .link-external,
+.item-review__bottom .link-main {
+    font-size: 12px;
+}
+.item-review {
+    padding: 20px 15px;
+}
+.review-video__image {
+    height: 165px;
+}
 }
 
 /* Medium Devices, Desktops */
@@ -3813,6 +3936,10 @@
 		align-items: center;
 		justify-content: center;
 	}
+	.modal-wrap__content .checkbox {
+		margin-top: 22px;
+		justify-content: center;
+	}
 }
 
 /* Small Devices, Tablets */
@@ -3829,6 +3956,51 @@
 	.sorting-block .title-small {
 		margin-bottom: 0;
 	}
+	.modal-wrap .title-section {
+    font-size: 24px;
+    margin-bottom: 13px;
+}
+.modal-wrap {
+    padding: 27px 15px;
+    padding-bottom: 20px;
+}
+.fancybox-close {
+    top: 7px;
+    right: 3px;
+    }
+    .modal-wrap__content {
+    padding: 25px 25px;
+}
+.modal-wrap .title-middle {
+    margin-bottom: 15px;
+}
+.item-vacancy__head {
+	display: block;
+}
+.salary-main {
+	margin-top: 13px;
+}
+.item-vacancy hr:first-of-type {
+	margin-top: 0;
+}
+.head-reviews {
+	display: block;
+	text-align: center;
+}
+.head-reviews .btn-main {
+	margin: 0 auto;
+	margin-top: 15px;
+}
+.wrap-reviews > img {
+	max-width: 100%;
+}
+.reviews-content {
+	padding-top: 25px;
+	padding-bottom: 40px;
+}
+.review-video__image {
+    height: 250px;
+}
 }
 
 /* Extra Small Devices, Phones */
@@ -3853,6 +4025,56 @@
 		font-size: 20px;
 		padding-bottom: 10px;
 	}
+	.modal-wrap .title-section {
+    font-size: 19px;
+}
+.modal-wrap .title-middle {
+    font-size: 13px;
+    letter-spacing: normal;
+}
+.item-vacancy__head {
+    padding: 16px 19px;
+}
+.item-vacancy__content {
+    padding: 19px;
+    padding-top: 0;
+}
+.item-vacancy {
+    margin-bottom: 15px;
+    border-radius: 20px;
+    }
+    .tabs-main a {
+    padding: 0 7px;
+    height: 40px;
+    font-size: 11px;
+    margin-right: 2px;
+}
+.item-review__head {
+	display: block;
+}
+.item-review .title-common {
+	max-width: 100%;
+	margin-bottom: 10px;
+}
+.item-review__descr {
+	text-align: left;
+}
+.item-review__text {
+    margin: 15px 0;
+    }
+    .item-review__bottom {
+    	padding-top: 15px;
+    	display: block;
+    }
+    .item-review__bottom .link-main {
+    	margin-top: 10px;
+    }
+    .review-video__image {
+    height: 185px;
+}
+.review-video__content {
+    margin-right: 0;
+    }
 }
 
 /* Custom, iPhone Retina */
