@@ -1299,6 +1299,89 @@
 .reviews-content {
 	padding-bottom: 80px;
 }
+.item-photo {
+    height: 210px;
+    }
+    .row_photos > div {
+    	margin-bottom: 17px;
+    }
+    .contacts-block {
+    padding: 19px 15px;
+    padding-right: 7px;
+    padding-bottom: 17px;
+    min-height: 195px;
+}
+.row_contacts > div {
+    margin-bottom: 34px;
+}
+.contacts-block .title-common span {
+    font-size: 16px;
+}
+.contacts-block .title-middle {
+    margin-bottom: 15px;
+}
+.contacts-block::before {
+    top: 55px;
+}
+.contacts-block::after {
+    right: 75px;
+    height: 115px;
+    }
+    .contacts-block .title-middle::before {
+    width: 45px;
+    height: 35px;
+    top: 22px;
+    right: 33px;
+}
+.contacts-block__icon {
+    width: 64px;
+    height: 64px;
+    top: -19px;
+    }
+    .contacts-block__icon img {
+    	max-width: 33px;
+    	max-height: 33px;
+    }
+    .contacts-block__icon::after {
+    top: -4px;
+    left: -13px;
+    right: -17px;
+    bottom: -11px;
+}
+.contacts-form .title-section {
+    font-size: 34px;
+    padding-bottom: 18px;
+    letter-spacing: 1.5px;
+    }
+    .contacts-form {
+    padding: 25px;
+    padding-top: 17px;
+}
+.contacts-form__content {
+    padding: 30px 30px;
+    }
+    .contacts-form .item-form {
+    margin-bottom: 25px;
+}
+.contacts-form .btn-main {
+    width: 315px;
+    }
+    #map {
+    height: 423px;
+}
+.socials-page a {
+    width: 30px;
+    height: 30px;
+    font-size: 16px;
+    }
+    .contacts-block .btn-main {
+    height: 47px;
+    padding: 0 24px;
+    border-radius: 13px;
+}
+.row_contacts {
+	margin-top: 14px;
+}
 }
 @media only screen and (max-width : 1350px) {
 	.footer::before {
@@ -1971,6 +2054,29 @@
 }
 .review-video__image {
     height: 165px;
+}
+.contacts-block .title-common span {
+    font-size: 13px;
+}
+.contacts-form__content {
+    padding: 25px 15px;
+}
+.contacts-form {
+    padding: 17px;
+    padding-top: 15px;
+    border-radius: 20px;
+}
+.contacts-form__content {
+	border-radius: 20px;
+}
+.contacts-form .title-section {
+    font-size: 28px;
+    padding-bottom: 14px;
+    letter-spacing: 1px;
+}
+#map {
+    height: 382px;
+    border-radius: 20px;
 }
 }
 
@@ -3940,6 +4046,16 @@
 		margin-top: 22px;
 		justify-content: center;
 	}
+	#map {
+		height: 300px;
+		margin-bottom: 20px;
+	}
+	.contacts-form .title-section {
+    font-size: 24px;
+}
+.row_contacts > div {
+    margin-bottom: 26px;
+}
 }
 
 /* Small Devices, Tablets */

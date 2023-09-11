@@ -3806,6 +3806,11 @@ background: #0C3264;
 .modal-wrap .btn-main {
 	padding: 0 10px;
 	width: 100%;
+	background: #1A6CD9;
+	box-shadow: none;
+}
+.modal-wrap .btn-main:hover {
+	background: #1557AE;
 }
 .modal-wrap__content .col-lg-12 {
 	margin-bottom: 20px;
@@ -4090,4 +4095,220 @@ z-index: 1;
 }
 .row_video-reviews > div {
 	margin-bottom: 30px;
+}
+.row_photos {
+	margin: 0 -20px;
+	position: relative;
+	z-index: 2;
+}
+.row_photos > div {
+	padding: 0 20px;
+	margin-bottom: 36px;
+}
+.item-photo {
+	height: 263px;
+	border-radius: 20px;
+	display: block;
+}
+.item-photo img {
+	width: 100%;
+	height: 100%;
+		border-radius: 20px;
+	object-fit: cover;
+	font-family: 'object-fit: cover;';
+	transition: all 2s;
+}
+.contacts-block {
+	padding: 23px 25px;
+	padding-right: 15px;
+	padding-bottom: 26px;
+	min-height: 236px;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	position: relative;
+	z-index: 1;
+}
+.contacts-block::before {
+    position: absolute;
+    display: block;
+    content: " ";
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 64px;
+    border-radius: 30px;
+    background: #F5F7FD;
+    z-index: -1;
+}
+.contacts-block::after {
+    position: absolute;
+    display: block;
+    content: " ";
+    top: 0;
+    right: 88px;
+    left: 0;
+    height: 140px;
+    border-radius: 30px;
+    background: #F5F7FD;
+    z-index: -1;
+}
+.contacts-block .title-middle::before {
+    position: absolute;
+    display: block;
+    content: " ";
+width: 52px;
+height: 39px;
+    top: 26px;
+    right: 42px;
+    background: #F5F7FD;
+    z-index: -1;
+}	
+.contacts-block .title-middle {
+	margin-bottom: 27px;
+}
+.contacts-block .title-common {
+	letter-spacing: normal;
+	color: #0C3264;
+}
+.contacts-block .title-common span {
+	font-size: 20px;
+	font-weight: 400;
+	text-transform: none;
+}
+.contacts-block__icon {
+	width: 73px;
+height: 73px;
+top: -26px;
+right: 0;
+display: flex;
+align-items: center;
+justify-content: center;
+	position: absolute;
+	z-index: 2;
+}
+.contacts-block__icon::before {
+    position: absolute;
+    display: block;
+    content: " ";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+background: #1557AE;
+    border-radius: 50%;
+    z-index: -1;
+}
+.contacts-block__icon::after {
+    position: absolute;
+    display: block;
+    content: " ";
+    top: -5px;
+    left: -16px;
+    right: -21px;
+    bottom: -15px;
+    background-color: #fff;
+    border-radius: 50px;
+    z-index: -2;
+}
+.row_contacts > div {
+	margin-bottom: 65px;
+}
+.row_contacts {
+	margin-top: 30px;
+}
+.page-contacts .title-section {
+	padding-bottom: 11px;
+}
+.contacts-block__bottom {
+	width: 100%;
+	margin-top: auto;
+}
+.contacts-block .btn-main {
+	height: 52px;
+	padding: 0 26px;
+	border-radius: 15px;
+}
+.socials-page {
+	display: flex;
+	align-items: center;
+}
+.socials-page a {
+	width: 35px;
+height: 35px;
+font-size: 20px;
+border-radius: 50%;
+color: #1557AE;
+display: flex;
+align-items: center;
+justify-content: center;
+background: #fff;
+}
+.socials-page a:hover {
+	opacity: 0.8;
+}
+.socials-page li {
+	margin-right: 18px;
+}
+.socials-page li:last-child {
+	margin-right: 0;
+}
+.contacts-block_socials .title-middle {
+	margin-bottom: 6px;
+}
+#map {
+	height: 490px;
+	border-radius: 30px 30px 30px 50px;
+	width: 100%;
+	overflow: hidden;
+	background-color: #ddd;
+}
+.contacts-form {
+	padding: 35px;
+	padding-top: 20px;
+	color: #fff;
+	border-radius: 30px 30px 30px 50px;
+background: #1557AE;
+}
+.contacts-form .title-section {
+	font-size: 40px;
+	padding-bottom: 23px;
+	letter-spacing: 2px;
+	color: #fff;
+	text-align: center;
+}
+.contacts-form__content {
+	padding: 35px 40px;
+	border-radius: 30px;
+background: #0C3264;
+}
+.contacts-form .btn-main {
+	width: 368px;
+	max-width: 100%;
+	padding: 0 10px;
+	background: #1A6CD9;
+	box-shadow: none;
+}
+.contacts-form .btn-main:hover {
+	background: #1557AE;
+}
+.col_bottom {
+	padding-top: 15px;
+	text-align: center;
+}
+.contacts-form .item-form {
+    margin-bottom: 30px;
+}
+.contacts-form .checkbox label > span:after {
+	color: #fff;
+}
+.contacts-form .checkbox label > span::before {
+	border-color: #fff;
+}
+.contacts-form .checkbox {
+	justify-content: center;
+}
+.page-contacts {
+	padding-bottom: 50px;
 }
