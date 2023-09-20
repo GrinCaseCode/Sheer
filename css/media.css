@@ -1205,183 +1205,230 @@
 		font-size: 34px;
 	}
 	.modal-wrap {
-    width: 935px;
-    padding: 30px 40px;
-    padding-bottom: 35px;
-}
-.modal-wrap .title-section {
-    font-size: 36px;
-    margin-bottom: 17px;
-    }
-    .modal-wrap__content {
-    padding: 30px 44px;
-}
-.file-upload {
-    margin-top: 23px;
-    margin-bottom: 19px;
-    }
-    .item-vacancy__head {
-    padding: 22px 25px;
-}
-.item-vacancy__descr {
-    font-size: 13px;
-    padding-top: 10px;
-    letter-spacing: 0.4px;
-}
-.item-vacancy__content {
-    padding: 25px;
-    padding-top: 0;
-    }
-    .item-vacancy .title-middle {
-    padding-bottom: 16px;
-}
-.item-vacancy hr {
-	margin: 15px 0;
-}
-.vacancies-content {
-	padding-bottom: 40px;
-}
-.file-upload label {
-	font-size: 13px;
-}
-.file-upload label i {
-	margin-right: 15px;
-}
-.wrap-reviews > img {
-    max-width: 875px;
-    }
-    .tabs-main a {
-    padding: 0 18px;
-    height: 43px;
-}
-.head-reviews .btn-main {
-    padding: 0 34px;
-    height: 50px;
-    border-radius: 15px;
-    }
-    .item-review {
-    padding: 20px 25px;
-}
-.item-review__head {
-    padding-bottom: 13px;
-    }
-    .item-review__descr {
-    font-size: 13px;
-    letter-spacing: 0.4px;
-}
-.link-external {
-    font-size: 13px;
-    letter-spacing: 0.5px;
-    }
-    .link-main {
-    font-size: 13px;
-}
-.row_reviews > div {
-    margin-bottom: 20px;
-}
-.review-video__image {
-    height: 215px;
-    border-radius: 20px;
-}
-.review-video__image img {
-	border-radius: 20px;
-}
-.review-video__content {
-    margin-right: 43px;
-    margin-top: -48px;
-    padding: 13px 15px;
-    padding-bottom: 17px;
-    border-radius: 20px;
-    }
-    .row_video-reviews > div {
-    margin-bottom: 20px;
-}
-.reviews-content {
-	padding-bottom: 80px;
-}
-.item-photo {
-    height: 210px;
-    }
-    .row_photos > div {
-    	margin-bottom: 17px;
-    }
-    .contacts-block {
-    padding: 19px 15px;
-    padding-right: 7px;
-    padding-bottom: 17px;
-    min-height: 195px;
-}
-.row_contacts > div {
-    margin-bottom: 34px;
-}
-.contacts-block .title-common span {
-    font-size: 16px;
-}
-.contacts-block .title-middle {
-    margin-bottom: 15px;
-}
-.contacts-block::before {
-    top: 55px;
-}
-.contacts-block::after {
-    right: 75px;
-    height: 115px;
-    }
-    .contacts-block .title-middle::before {
-    width: 45px;
-    height: 35px;
-    top: 22px;
-    right: 33px;
-}
-.contacts-block__icon {
-    width: 64px;
-    height: 64px;
-    top: -19px;
-    }
-    .contacts-block__icon img {
-    	max-width: 33px;
-    	max-height: 33px;
-    }
-    .contacts-block__icon::after {
-    top: -4px;
-    left: -13px;
-    right: -17px;
-    bottom: -11px;
-}
-.contacts-form .title-section {
-    font-size: 34px;
-    padding-bottom: 18px;
-    letter-spacing: 1.5px;
-    }
-    .contacts-form {
-    padding: 25px;
-    padding-top: 17px;
-}
-.contacts-form__content {
-    padding: 30px 30px;
-    }
-    .contacts-form .item-form {
-    margin-bottom: 25px;
-}
-.contacts-form .btn-main {
-    width: 315px;
-    }
-    #map {
-    height: 423px;
-}
-.socials-page a {
-    width: 30px;
-    height: 30px;
-    font-size: 16px;
-    }
-    .contacts-block .btn-main {
-    height: 47px;
-    padding: 0 24px;
-    border-radius: 13px;
-}
-.row_contacts {
-	margin-top: 14px;
-}
+		width: 935px;
+		padding: 30px 40px;
+		padding-bottom: 35px;
+	}
+	.modal-wrap .title-section {
+		font-size: 36px;
+		margin-bottom: 17px;
+	}
+	.modal-wrap__content {
+		padding: 30px 44px;
+	}
+	.file-upload {
+		margin-top: 23px;
+		margin-bottom: 19px;
+	}
+	.item-vacancy__head {
+		padding: 22px 25px;
+	}
+	.item-vacancy__descr {
+		font-size: 13px;
+		padding-top: 10px;
+		letter-spacing: 0.4px;
+	}
+	.item-vacancy__content {
+		padding: 25px;
+		padding-top: 0;
+	}
+	.item-vacancy .title-middle {
+		padding-bottom: 16px;
+	}
+	.item-vacancy hr {
+		margin: 15px 0;
+	}
+	.vacancies-content {
+		padding-bottom: 40px;
+	}
+	.file-upload label {
+		font-size: 13px;
+	}
+	.file-upload label i {
+		margin-right: 15px;
+	}
+	.wrap-reviews > img {
+		max-width: 875px;
+	}
+	.tabs-main a {
+		padding: 0 18px;
+		height: 43px;
+	}
+	.head-reviews .btn-main {
+		padding: 0 34px;
+		height: 50px;
+		border-radius: 15px;
+	}
+	.item-review {
+		padding: 20px 25px;
+	}
+	.item-review__head {
+		padding-bottom: 13px;
+	}
+	.item-review__descr {
+		font-size: 13px;
+		letter-spacing: 0.4px;
+	}
+	.link-external {
+		font-size: 13px;
+		letter-spacing: 0.5px;
+	}
+	.link-main {
+		font-size: 13px;
+	}
+	.row_reviews > div {
+		margin-bottom: 20px;
+	}
+	.review-video__image {
+		height: 215px;
+		border-radius: 20px;
+	}
+	.review-video__image img {
+		border-radius: 20px;
+	}
+	.review-video__content {
+		margin-right: 43px;
+		margin-top: -48px;
+		padding: 13px 15px;
+		padding-bottom: 17px;
+		border-radius: 20px;
+	}
+	.row_video-reviews > div {
+		margin-bottom: 20px;
+	}
+	.reviews-content {
+		padding-bottom: 80px;
+	}
+	.item-photo {
+		height: 210px;
+	}
+	.row_photos > div {
+		margin-bottom: 17px;
+	}
+	.contacts-block {
+		padding: 19px 15px;
+		padding-right: 7px;
+		padding-bottom: 17px;
+		min-height: 195px;
+	}
+	.row_contacts > div {
+		margin-bottom: 34px;
+	}
+	.contacts-block .title-common span {
+		font-size: 16px;
+	}
+	.contacts-block .title-middle {
+		margin-bottom: 15px;
+	}
+	.contacts-block::before {
+		top: 55px;
+	}
+	.contacts-block::after {
+		right: 75px;
+		height: 115px;
+	}
+	.contacts-block .title-middle::before {
+		width: 45px;
+		height: 35px;
+		top: 22px;
+		right: 33px;
+	}
+	.contacts-block__icon {
+		width: 64px;
+		height: 64px;
+		top: -19px;
+	}
+	.contacts-block__icon img {
+		max-width: 33px;
+		max-height: 33px;
+	}
+	.contacts-block__icon::after {
+		top: -4px;
+		left: -13px;
+		right: -17px;
+		bottom: -11px;
+	}
+	.contacts-form .title-section {
+		font-size: 34px;
+		padding-bottom: 18px;
+		letter-spacing: 1.5px;
+	}
+	.contacts-form {
+		padding: 25px;
+		padding-top: 17px;
+	}
+	.contacts-form__content {
+		padding: 30px 30px;
+	}
+	.contacts-form .item-form {
+		margin-bottom: 25px;
+	}
+	.contacts-form .btn-main {
+		width: 315px;
+	}
+	#map {
+		height: 423px;
+	}
+	.socials-page a {
+		width: 30px;
+		height: 30px;
+		font-size: 16px;
+	}
+	.contacts-block .btn-main {
+		height: 47px;
+		padding: 0 24px;
+		border-radius: 13px;
+	}
+	.row_contacts {
+		margin-top: 14px;
+	}
+	.billbord_page .title-big {
+		font-size: 39px;
+		letter-spacing: 2px;
+	}
+	.billbord_page .title-big span {
+		font-size: 34px;
+		letter-spacing: 1.5px;
+	}
+	.billbord_page .title-common {
+		font-size: 18px;
+	}
+	.billbord_page {
+		padding-bottom: 55px;
+	}
+	.about-complex {
+		padding: 62px 0;
+	}
+	.text-complex p {
+		margin-bottom: 35px;
+	}
+	.text-complex {
+		letter-spacing: 0.5px;
+	}
+	.info-complex {
+		padding: 32px 25px;
+		padding-right: 15px;
+	}
+	.info-complex .title-common {
+		margin-bottom: 25px;
+	}
+	.mediaplan {
+		padding-top: 52px;
+		padding-bottom: 47px;
+	}
+	.mediaplan-block {
+		padding: 35px 40px;
+		margin-bottom: 25px;
+	}
+	.mediaplan .title-middle {
+		margin-bottom: 27px;
+	}
+	.text-section {
+		padding-bottom: 35px;
+	}
+	.text-section_top {
+		padding: 80px 0;
+	}
 }
 @media only screen and (max-width : 1350px) {
 	.footer::before {
@@ -2028,56 +2075,88 @@
 		top: 85px;
 	}
 	.modal-wrap {
-    width: 800px;
-    padding: 30px 35px;
-    padding-bottom: 33px;
-}
-.modal-wrap .title-section {
-    font-size: 31px;
-    margin-bottom: 15px;
-}
-.salary-main {
-	margin-top: 5px;
-}
-.item-vacancy__bottom {
-    padding-top: 29px;
-    }
-    .wrap-reviews > img {
-    max-width: 600px;
-}
-.item-review__bottom .link-external,
-.item-review__bottom .link-main {
-    font-size: 12px;
-}
-.item-review {
-    padding: 20px 15px;
-}
-.review-video__image {
-    height: 165px;
-}
-.contacts-block .title-common span {
-    font-size: 13px;
-}
-.contacts-form__content {
-    padding: 25px 15px;
-}
-.contacts-form {
-    padding: 17px;
-    padding-top: 15px;
-    border-radius: 20px;
-}
-.contacts-form__content {
-	border-radius: 20px;
-}
-.contacts-form .title-section {
-    font-size: 28px;
-    padding-bottom: 14px;
-    letter-spacing: 1px;
-}
-#map {
-    height: 382px;
-    border-radius: 20px;
-}
+		width: 800px;
+		padding: 30px 35px;
+		padding-bottom: 33px;
+	}
+	.modal-wrap .title-section {
+		font-size: 31px;
+		margin-bottom: 15px;
+	}
+	.salary-main {
+		margin-top: 5px;
+	}
+	.item-vacancy__bottom {
+		padding-top: 29px;
+	}
+	.wrap-reviews > img {
+		max-width: 600px;
+	}
+	.item-review__bottom .link-external,
+	.item-review__bottom .link-main {
+		font-size: 12px;
+	}
+	.item-review {
+		padding: 20px 15px;
+	}
+	.review-video__image {
+		height: 165px;
+	}
+	.contacts-block .title-common span {
+		font-size: 13px;
+	}
+	.contacts-form__content {
+		padding: 25px 15px;
+	}
+	.contacts-form {
+		padding: 17px;
+		padding-top: 15px;
+		border-radius: 20px;
+	}
+	.contacts-form__content {
+		border-radius: 20px;
+	}
+	.contacts-form .title-section {
+		font-size: 28px;
+		padding-bottom: 14px;
+		letter-spacing: 1px;
+	}
+	#map {
+		height: 382px;
+		border-radius: 20px;
+	}
+	.process_page {
+		margin-bottom: 40px;
+	}
+	.process {
+		padding-bottom: 60px;
+	}
+	.mediaplan {
+		padding-top: 40px;
+		padding-bottom: 35px;
+	}
+	.info-complex .title-block {
+		font-size: 19px;
+	}
+	.info-complex {
+		padding: 25px 15px;
+		padding-right: 10px;
+	}
+	.info-complex .title-common {
+		font-size: 16px;
+		margin-bottom: 16px;
+	}
+	.billbord_page .title-common {
+		font-size: 14px;
+	}
+	.billbord_page .title-big {
+		font-size: 30px;
+		letter-spacing: 1.6px;
+	}
+	.billbord_page .title-big span {
+		font-size: 27px;
+		letter-spacing: 1px;
+	}
 }
 
 /* Medium Devices, Desktops */
@@ -4051,11 +4130,74 @@
 		margin-bottom: 20px;
 	}
 	.contacts-form .title-section {
-    font-size: 24px;
-}
-.row_contacts > div {
-    margin-bottom: 26px;
-}
+		font-size: 24px;
+	}
+	.row_contacts > div {
+		margin-bottom: 26px;
+	}
+	.billbord_page .title-big {
+		font-size: 23px;
+		letter-spacing: 1px;
+	}
+	.billbord_page .title-big span {
+		font-size: 18px;
+		letter-spacing: 0;
+	}
+	.billbord_page .title-common {
+		font-size: 13px;
+	}
+	.billbord_page .billbord__buttons .btn-main {
+		width: 100%;
+	}
+	.billbord_page .billbord__buttons {
+		padding-top: 12px;
+	}
+	.billbord_page {
+		padding-bottom: 40px;
+	}
+	.about-complex {
+		padding: 45px 0;
+	}
+	.about-complex .title-section {
+		margin-bottom: 15px;
+	}
+	.text-complex p {
+		margin-bottom: 15px;
+	}
+	.info-complex {
+		margin-bottom: 20px;
+	}
+	.about-complex .item-team {
+		margin-bottom: 20px;
+	}
+	.about-complex {
+		padding-bottom: 30px;
+	}
+	.mediaplan-block {
+		padding: 20px 20px;
+	}
+	.mediaplan {
+		padding-bottom: 25px;
+	}
+	.text-columns {
+		columns: initial;
+	}
+	.text-columns p {
+		margin-bottom: 15px;
+	}
+	.text-section {
+		padding-bottom: 20px;
+	}
+	.text-section_top {
+		padding: 40px 0;
+		padding-bottom: 20px;
+	}
+	.text-section_bottom {
+		padding-top: 35px;
+	}
+	.billbord_page .billbord__top {
+		padding-bottom: 20px;
+	}
 }
 
 /* Small Devices, Tablets */
@@ -4073,50 +4215,50 @@
 		margin-bottom: 0;
 	}
 	.modal-wrap .title-section {
-    font-size: 24px;
-    margin-bottom: 13px;
-}
-.modal-wrap {
-    padding: 27px 15px;
-    padding-bottom: 20px;
-}
-.fancybox-close {
-    top: 7px;
-    right: 3px;
-    }
-    .modal-wrap__content {
-    padding: 25px 25px;
-}
-.modal-wrap .title-middle {
-    margin-bottom: 15px;
-}
-.item-vacancy__head {
-	display: block;
-}
-.salary-main {
-	margin-top: 13px;
-}
-.item-vacancy hr:first-of-type {
-	margin-top: 0;
-}
-.head-reviews {
-	display: block;
-	text-align: center;
-}
-.head-reviews .btn-main {
-	margin: 0 auto;
-	margin-top: 15px;
-}
-.wrap-reviews > img {
-	max-width: 100%;
-}
-.reviews-content {
-	padding-top: 25px;
-	padding-bottom: 40px;
-}
-.review-video__image {
-    height: 250px;
-}
+		font-size: 24px;
+		margin-bottom: 13px;
+	}
+	.modal-wrap {
+		padding: 27px 15px;
+		padding-bottom: 20px;
+	}
+	.fancybox-close {
+		top: 7px;
+		right: 3px;
+	}
+	.modal-wrap__content {
+		padding: 25px 25px;
+	}
+	.modal-wrap .title-middle {
+		margin-bottom: 15px;
+	}
+	.item-vacancy__head {
+		display: block;
+	}
+	.salary-main {
+		margin-top: 13px;
+	}
+	.item-vacancy hr:first-of-type {
+		margin-top: 0;
+	}
+	.head-reviews {
+		display: block;
+		text-align: center;
+	}
+	.head-reviews .btn-main {
+		margin: 0 auto;
+		margin-top: 15px;
+	}
+	.wrap-reviews > img {
+		max-width: 100%;
+	}
+	.reviews-content {
+		padding-top: 25px;
+		padding-bottom: 40px;
+	}
+	.review-video__image {
+		height: 250px;
+	}
 }
 
 /* Extra Small Devices, Phones */
@@ -4142,62 +4284,62 @@
 		padding-bottom: 10px;
 	}
 	.modal-wrap .title-section {
-    font-size: 19px;
-}
-.modal-wrap .title-middle {
-    font-size: 13px;
-    letter-spacing: normal;
-}
-.item-vacancy__head {
-    padding: 16px 19px;
-}
-.item-vacancy__content {
-    padding: 19px;
-    padding-top: 0;
-}
-.item-vacancy {
-    margin-bottom: 15px;
-    border-radius: 20px;
-    }
-    .tabs-main a {
-    padding: 0 7px;
-    height: 40px;
-    font-size: 11px;
-    margin-right: 2px;
-}
-.item-review__head {
-	display: block;
-}
-.item-review .title-common {
-	max-width: 100%;
-	margin-bottom: 10px;
-}
-.item-review__descr {
-	text-align: left;
-}
-.item-review__text {
-    margin: 15px 0;
-    }
-    .item-review__bottom {
-    	padding-top: 15px;
-    	display: block;
-    }
-    .item-review__bottom .link-main {
-    	margin-top: 10px;
-    }
-    .review-video__image {
-    height: 185px;
-}
-.review-video__content {
-    margin-right: 0;
-    }
-    .tabs-main a {
-    	padding: 0 10px;
-    	max-width: 156px;
-    }
-    .tabs-main li:last-child a {
-    	margin-right: 0;
-    }
+		font-size: 19px;
+	}
+	.modal-wrap .title-middle {
+		font-size: 13px;
+		letter-spacing: normal;
+	}
+	.item-vacancy__head {
+		padding: 16px 19px;
+	}
+	.item-vacancy__content {
+		padding: 19px;
+		padding-top: 0;
+	}
+	.item-vacancy {
+		margin-bottom: 15px;
+		border-radius: 20px;
+	}
+	.tabs-main a {
+		padding: 0 7px;
+		height: 40px;
+		font-size: 11px;
+		margin-right: 2px;
+	}
+	.item-review__head {
+		display: block;
+	}
+	.item-review .title-common {
+		max-width: 100%;
+		margin-bottom: 10px;
+	}
+	.item-review__descr {
+		text-align: left;
+	}
+	.item-review__text {
+		margin: 15px 0;
+	}
+	.item-review__bottom {
+		padding-top: 15px;
+		display: block;
+	}
+	.item-review__bottom .link-main {
+		margin-top: 10px;
+	}
+	.review-video__image {
+		height: 185px;
+	}
+	.review-video__content {
+		margin-right: 0;
+	}
+	.tabs-main a {
+		padding: 0 10px;
+		max-width: 156px;
+	}
+	.tabs-main li:last-child a {
+		margin-right: 0;
+	}
 }
 
 /* Custom, iPhone Retina */
