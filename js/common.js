@@ -1,5 +1,8 @@
 $(document).ready(function() {
 
+
+
+
 	$('.beforeAfter').beforeAfter();
 
 	$('.tabs-selects li a').click(function(event) {
@@ -114,41 +117,50 @@ $("input[type='file']").change(function(){
 	});
 
 	//кнопка sandwich
-	$(".sandwich_catalog").click(function() {
-		if ($(".menu-dropdown").is(":hidden")) {
-			$(".menu-dropdown").slideDown(200);
-			$(this).addClass("active");
-		} else {
-			$(".menu-dropdown").slideUp(200);
+	$(".sandwich").click(function() {
+		if ($(".menu-dropdown").hasClass("active")) {
+			$(".menu-dropdown").removeClass("active");
 			$(this).removeClass("active");
+			$(".menu-overlay").fadeOut(200);
+		} else {
+			$(".menu-overlay").fadeIn(1800);
+			$(".menu-dropdown").addClass("active");
+			$(this).addClass("active");
 		}
 	});
 
-	$(".sandwich_menu").click(function() {
-		if ($(".header__content").is(":hidden")) {
-			$(".header__content").slideDown(200);
-			$(this).addClass("active");
-			$(".header").addClass("active");
-		} else {
-			$(".header__content").slideUp(200);
-			$(this).removeClass("active");
-			$(".header").removeClass("active");
-		}
+	$(".menu-overlay").click(function() {
+		$(".menu-dropdown").removeClass("active");
+		$(".sandwich").removeClass("active");
+		$(".menu-overlay").fadeOut(200);
 	});
+
+	
+
+
 
 	{
-		if ($(window).width() > 992) { 
-			$(document).mouseup(function (e) {
-				var container = $(".menu-dropdown");
-				if (container.has(e.target).length === 0){
-					container.slideUp(200);
-					$(".sandwich_catalog").removeClass("active");
-				}
-			});
-
+		if ($(window).width() < 992) { 
+			$(".list-menu__haschild > a").click(function(e) {
+		e.preventDefault();
+		$(this).parent().toggleClass("active");
+		$(this).siblings().slideToggle(200);
+	});
 		}
 	}
 
+	{
+		if ($(window).width() > 992) { 
+			$(".list-menu > li").on( "mouseover", function() {
+				$(this).find("ul").fadeIn(200);
+				$(this).addClass("active");
+				$(this).siblings().find("ul").fadeOut(100);
+				$(this).siblings().removeClass("active");
+			} );
+		}
+	}
+
+	
 	{
 		if ($(window).width() < 992) { 
 
@@ -223,17 +235,21 @@ $("input[type='file']").change(function(){
 		arrows: true,
 		dots: false,
 		infinite: true,
-		centerMode: true,
-		variableWidth: true,
-		slidesToShow: 1,
+		rows: 2,
+		slidesToShow: 4,
 		slidesToScroll:1,
 		prevArrow: '<div class="slick-prev slick-arrow"><i class="far fa-arrow-left"></i><div/>',
 		nextArrow: '<div class="slick-next slick-arrow"><i class="far fa-arrow-right"></i><div/>',
-		mobileFirst: true,
 		responsive: [
 		{
 			breakpoint: 992,
-			settings: 'unslick'
+			settings: {
+				rows: 1,
+				slidesToShow: 1,
+				infinite: true,
+				centerMode: true,
+				variableWidth: true,
+			}
 		}
 		]
 	});	
@@ -364,6 +380,10 @@ $("input[type='file']").change(function(){
 
 	objectFitImages();
 
+	$(".item-service__head").click(function() {
+		$(this).parent().toggleClass("active");
+		$(this).siblings(".item-service__content").slideToggle(200);
+	});
 
 });
 
